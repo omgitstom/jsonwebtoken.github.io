@@ -1,10 +1,10 @@
-// Python jpadilla/pyjwt
-article.jwt-python.python.accordion(data-accordion)
+// Go dvsekhvalnov/jose2go
+article.jwt-go.go.accordion(data-accordion)
   .panel-heading(data-control)
-    img(src='/img/4.svg')
-    h3 Python
+    img(src='/img/8.svg')
+    h3 Go
   .panel-wrap(data-content)
-    .panel-body.mversion
+    .panel-body
       .column
         p
           i.icon-budicon-500
@@ -60,25 +60,27 @@ article.jwt-python.python.accordion(data-accordion)
           i.icon-budicon-500
           | RS512
         p
-          i.icon-budicon-501
+          i.icon-budicon-500
           | ES256
         p
-          i.icon-budicon-501
+          i.icon-budicon-500
           | ES384
         p
-          i.icon-budicon-501
+          i.icon-budicon-500
           | ES512
 
     .author-info
       .maintainer
-        a(href='https://github.com/simo5')
+        a(href='https://github.com/dvsekhvalnov/jose2go')
           i.icon-budicon-333(data-toggle='tooltip', title='', data-original-title='Maintainer')
-          | Simo Sorce
-        span.stars(data-repo='simo5/jwcrypto', style='display: inline;')
+          | DV
+        span.stars(data-repo='dvsekhvalnov/jose2go', style='display: inline;')
           i.icon-budicon-466
       .repository
         i.icon-1392070209-icon-social-github
-        a(href='https://github.com/jpadilla/jwcrypto/') View Repo
+        a(href='https://github.com/dvsekhvalnov/jose2go') View Repo
 
     .panel-footer
-      code git clone git@github.com:simo5/jwcrypto.git
+      code
+        | go get 
+        a(href='https://github.com/dvsekhvalnov/jose2go') github.com/dvsekhvalnov/jose2go
